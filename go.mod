@@ -1,4 +1,4 @@
-module github.com/rabbitprincess/snum_sort
+module github.com/rabbitprincess/snum
 
 go 1.22.1
 

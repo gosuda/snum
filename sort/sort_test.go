@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rabbitprincess/snum_sort/snum"
+	"github.com/rabbitprincess/snum/snum"
 	"github.com/stretchr/testify/require"
 )
 

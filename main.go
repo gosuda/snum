@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/rabbitprincess/snum_sort/snum"
-	"github.com/rabbitprincess/snum_sort/sort"
+	"github.com/rabbitprincess/snum/snum"
+	"github.com/rabbitprincess/snum/sort"
 )
 
 func main() {
