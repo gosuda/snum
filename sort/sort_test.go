@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rabbitprincess/snum/snum"
+	"gosuda.org/snum/snum"
 	"github.com/stretchr/testify/require"
 )
 

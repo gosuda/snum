@@ -1,4 +1,5 @@
 # snum-sortable
+
  - Sortable decimal number utility
  - No zero padding for alignment
  - Support bytes alignment including negative numbers and decimals
@@ -15,8 +16,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/rabbitprincess/snum_sort/snum"
-	"github.com/rabbitprincess/snum_sort/sort"
+	"gosuda.org/snum/snum"
+	"gosuda.org/snum/sort"
 )
 
 func main() {
@@ -36,11 +37,13 @@ func main() {
 
 ```
 
-# max length
+## max length
+
  - positive : 65 byte (header 1 bt + body 64 bt)
  - negative : 66 byte (header 1 bt + body 64 bt + 0xFF 1 bt)
 
-# header
+## header
+
  - 255 = positive 96 digit ( 1e95 <= x < 1e96 )
  - 254 = positive 95 digit ( 1e94 <= x < 1e95 )
  .....
