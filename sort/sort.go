@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"errors"
 
-	"github.com/rabbitprincess/snum/snum"
+	"gosuda.org/snum/snum"
 )
 
 func New[T snum.ISnum](num T) *SnumSort {

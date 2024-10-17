@@ -1,4 +1,4 @@
-module github.com/rabbitprincess/snum
+module gosuda.org/snum
 
 go 1.22.1
 
